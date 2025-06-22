@@ -212,34 +212,6 @@ curl -X POST "http://localhost:8000/rate?debug_mode=true" \
 ├── ielts_tkinter_app.py     # Tkinter GUI application
 ├── requirements.txt         # Python dependencies
 └── README.md               # This file
-```
-
-### Adding New Models
-
-To add support for additional AI models:
-
-1. Update the `evaluate_with_llm()` function in `app.py`
-2. Add the new model option to the GUI dropdown in `ielts_tkinter_app.py`
-3. Update the `WritingSubmission` model validation
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature-name`
-3. Make your changes and test thoroughly
-4. Submit a pull request with a clear description
-
-## License
-
-[Add your license information here]
-
-## Support
-
-For issues and questions:
-- Create an issue on GitHub
-- Check the troubleshooting section above
-- Ensure all prerequisites are properly installed
-
 ---
 
-**Note**: This application is designed for educational and assessment purposes. IELTS is a trademark of the British Council, IDP Education, and Cambridge Assessment English.
+**Note**: This application is designed for learning purposes and your feedback may vary with the prompt
